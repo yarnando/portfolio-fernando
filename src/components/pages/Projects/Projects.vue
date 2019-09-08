@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <section>
       Projects
-  </div>
+  </section>
 </template>
 
 <script>

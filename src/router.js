@@ -9,16 +9,16 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'principal',
       component: Home
     },
     {
-      path: '/about',
+      path: '/sobre',
       name: 'about',
       component: () => import('./components/pages/AboutMe/AboutMe.vue')
     },
     {
-      path: '/projects',
+      path: '/projetos',
       name: 'projects',
       component: () => import('./components/pages/Projects/Projects.vue')
     }
