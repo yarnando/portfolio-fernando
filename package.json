@@ -12,10 +12,12 @@
   },
   "devDependencies": {
     "@vue/cli-service": "^3.0.5",
+    "tailwindcss": "^1.1.2",
     "vue-template-compiler": "^2.6.10"
   },
   "postcss": {
     "plugins": {
+      "tailwindcss": "./tailwind.js",
       "autoprefixer": {}
     }
   },
